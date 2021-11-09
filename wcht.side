@@ -1,0 +1,203 @@
+{
+  "id": "dd499f1f-ac80-45a3-8511-ac7d28654d15",
+  "version": "2.0",
+  "name": "wcht",
+  "url": "https://www.wcht.org.uk/",
+  "tests": [{
+    "id": "a64cceb7-372e-47e5-9d75-81cdb1ec32ba",
+    "name": "test3",
+    "commands": [{
+      "id": "79296dc5-a0af-441e-91d6-c2b589b99369",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.wcht.org.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "886c5273-623e-4dd2-9e43-14e7c6762269",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1563x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94d215e6-9c92-4ab7-acf0-e70d7124546e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your home",
+      "targets": [
+        ["linkText=Your home", "linkText"],
+        ["css=.header__nav-link-object:nth-child(1) .header__nav-area-title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Your home')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/your-home')])[2]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "576868d6-47de-4d6d-b831-d34dc4b94ff9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your community",
+      "targets": [
+        ["linkText=Your community", "linkText"],
+        ["css=.header__nav-link-object:nth-child(2) .header__nav-area-title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Your community')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/Your-Community')])[2]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c16c69e8-da06-4d22-b4e7-4a97d67d651b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-column:nth-child(1) .card__icon-holder",
+      "targets": [
+        ["css=.grid-column:nth-child(1) .card__icon-holder", "css:finder"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f57474e7-217b-43cc-a0b2-e120dfb25017",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--outline > .btn__text",
+      "targets": [
+        ["css=.btn--outline > .btn__text", "css:finder"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Your account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab155189-424d-429b-957f-0038cf352516",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='inner-cell']/a/img",
+      "targets": [
+        ["xpath=//div[@id='inner-cell']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de7442e2-dacd-4d8d-8b80-a872104b6ca6",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "320d9037-d8ed-4bfe-897f-aeef3e9edc89",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abcxyz"
+    }, {
+      "id": "f00f8015-9ec3-4ec3-b157-128eafe505e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e79cba10-3c5a-4752-9cf3-eddf3bb07823",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eca62db-dd72-471b-a4d9-551111d94ade",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "patel"
+    }, {
+      "id": "e0929b81-c8ee-4e8c-ba39-05a6f5814913",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "808488f3-26ca-4c61-a0af-606bda5d0b28",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "xyzabc"
+    }, {
+      "id": "a875c8d6-f218-4d64-8355-214bbd9764f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04edd63b-6c57-4f67-a1e4-a4d29fa31720",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a64cceb7-372e-47e5-9d75-81cdb1ec32ba"]
+  }],
+  "urls": ["https://www.wcht.org.uk/"],
+  "plugins": []
+}

@@ -1,0 +1,128 @@
+{
+  "id": "5f78cddb-6575-4c12-a9b3-51d9d9f2457a",
+  "version": "2.0",
+  "name": "harrow",
+  "url": "https://www.harrow.gov.uk/",
+  "tests": [{
+    "id": "93480949-8bcf-4993-ac06-acb69f6af361",
+    "name": "test4",
+    "commands": [{
+      "id": "fb11260f-bdcf-4b50-93d2-c5afde3ed6e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.harrow.gov.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fed8a584-6d40-447b-9bfd-68e2fd7da244",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1563x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc338339-ea76-4c4e-8c48-d33d0d1970f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#top > .container",
+      "targets": [
+        ["css=#top > .container", "css:finder"],
+        ["xpath=//header[@id='top']/div", "xpath:idRelative"],
+        ["xpath=//header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc5b5ac8-f437-45e5-b77f-640d006e3505",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-fallback:nth-child(2)",
+      "targets": [
+        ["css=.icon-fallback:nth-child(2)", "css:finder"],
+        ["xpath=//header[@id='top']/div/nav/div/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in / Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68a9b8d1-b0a2-4462-8574-f53b5cb42737",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["name=username", "name"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72edf643-1103-4025-8258-692cc5bb0576",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-input",
+      "targets": [
+        ["id=username-input", "id"],
+        ["name=username", "name"],
+        ["css=#username-input", "css:finder"],
+        ["xpath=//input[@id='username-input']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abc@gmail.com"
+    }, {
+      "id": "42be7db3-2a12-44da-aa05-a77356e7b815",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["name=password", "name"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b16ed718-f412-435b-b80a-d39ad9e72423",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["name=password", "name"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Svpsvp"
+    }, {
+      "id": "97136c89-57c4-4612-b619-22eadf9cf59e",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitBtnSignIn",
+      "targets": [
+        ["id=submitBtnSignIn", "id"],
+        ["name=_login", "name"],
+        ["css=#submitBtnSignIn", "css:finder"],
+        ["xpath=//input[@id='submitBtnSignIn']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "991d727c-2f96-4ed9-9100-cde32a305ee3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["93480949-8bcf-4993-ac06-acb69f6af361"]
+  }],
+  "urls": ["https://www.harrow.gov.uk/"],
+  "plugins": []
+}
